@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav footer {
+  flex-shrink: 0;
+}
+
+.navheader ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navheader ul li {
+  list-style: none;
+  padding: 10px;
+  margin: 2px;
+}
+
+.google {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 200px;
+  background-color: lightcyan;
+  border: solid 1px blue;
+}
+
+.footerarea div {
+  background-color: rgb(219, 219, 219);
+  width: 100vw;
+  border-bottom: 2px solid gray;
+  padding: 10px, 0;
+}
